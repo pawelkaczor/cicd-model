@@ -1,6 +1,6 @@
 # Aspekty CI & CD
 
-## Definicja procesu wydawniczego
+## Definiowanie procesu wydawniczego
 Zdefiniowanie kroków procesu wydawniczego, które będą wykonywane automatycznie jeden po drugim.
 
 Definicja może przyjmować parametry wejściowe. Niektóre parametry mogą być obliczane automatycznie na podstawie zdefiniowanych reguł.  
