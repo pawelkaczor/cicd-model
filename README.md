@@ -1,13 +1,20 @@
 # Aspekty CI & CD
 
-## Definiowanie procesu wydawniczego
-Zdefiniowanie kroków procesu wydawniczego, które będą wykonywane automatycznie jeden po drugim.
+## Specyfikacja procesu wydawniczego
+Specyfikacja procesu wydawniczego określa kroki jakie będą wykonywane automatycznie jeden po drugim.
 
-Definicja może przyjmować parametry wejściowe. Niektóre parametry mogą być obliczane automatycznie na podstawie zdefiniowanych reguł.  
+Specyfikacja może przyjmować parametry wejściowe. Niektóre parametry mogą być obliczane automatycznie na podstawie zdefiniowanych reguł.  
 
-Wersjonowanie, edytowanie definicji procesu.
+Specyfikacja procesu powinna być wersjonowana.
 
-**Proces wydawniczy** - proces, którego rezultatem jest aktualizacja działającego systemu na konkretnym środowisku.  
+**Proces wydawniczy** - proces, którego rezultatem jest aktualizacja działającego systemu na określonym środowisku.
+
+W architekturze mikroserwisów, kontekst procesu zwykle ograniczony jest do pojedynczego serwisu.
+
+Proces wydawniczy może korzystać z rezultatów procesu wydawniczego dla środowiska niższej rangi.
+
+Proces wydawniczy dla środowiska produkcyjnego (środowiska najwyższej rangi) jest procesem końcowym.  
+
 
 ## Środowisko
 
