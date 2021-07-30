@@ -33,8 +33,7 @@ Przykłady zdarzeń inicjalizujących proces wydawniczych:
 
 Możliwe powinno być ręczne uruchomienie procesu wydawniczego (?)
 
-## Informacja o rezultatach procesu
+## Notyfikacje oraz aktualna informacja o stanie środowiska
+Proces wydawniczy powinien publikować informacje o rezultatach swojego działania, tj:  nowo wydanych wersjach bibliotek bądź serwisów, nowo zdeployowanych wersjach serwisów itp.
 
-Informacja zwrotna o rezultatach procesu.
-
-Informacje o zmianach na środowisku (np. wersje komponentów / serwisów).
+Informacja o aktualnym stanie środowiska tj. informacja o wersjach wszystkich serwisów działających na danym środowisku powinna być łatwo dostępna.
